@@ -23,5 +23,10 @@
     "client",
     "server"
   ],
-  "license": "MIT"
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "http://jryans.mit-license.org/"
+    }
+  ]
 }
