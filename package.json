@@ -1,0 +1,26 @@
+{
+  "author": "J. Ryan Stinnett <jryans@gmail.com> (http://convolv.es/)",
+  "name": "net-browserify",
+  "description": "net module (client and server) for browserify",
+  "version": "0.0.0",
+  "homepage": "https://github.com/jryans/net-browserify",
+  "bugs": "https://github.com/jryans/net-browserify/issues",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/jryans/net-browserify.git"
+  },
+  "dependencies": {},
+  "devDependencies": {},
+  "optionalDependencies": {},
+  "engines": {
+    "node": "*"
+  },
+  "keywords": [
+    "net",
+    "browserify",
+    "browser",
+    "client",
+    "server"
+  ],
+  "license": "MIT"
+}
