@@ -9,6 +9,7 @@
     "type": "git",
     "url": "git://github.com/jryans/net-browserify.git"
   },
+  "main": "main.js",
   "dependencies": {},
   "devDependencies": {},
   "optionalDependencies": {},
