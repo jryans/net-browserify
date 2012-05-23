@@ -1,0 +1,5 @@
+#!/bin/bash
+
+mvn package
+cp target/net-browserify-java-1.0.jar browser/
+jarsigner -keystore keys -signedjar browser/net-browserify-java-1.0-signed.jar target/net-browserify-java-1.0.jar cst

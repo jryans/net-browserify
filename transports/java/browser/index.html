@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="en-us">
+  <head>
+    <!--<script src="http://www.java.com/js/deployJava.js"></script>-->
+    <script>
+      var attributes = {codebase:'http://localhost:8001/',
+        code:'com.github.jryans.netbrowserify.Server.class',
+        archive:'net-browserify-java-1.0.jar',
+        width:710, height:540, id: 'ts'} ;
+      var parameters = {fontSize:16} ;
+      var version = '1.6' ;
+      //deployJava.runApplet(attributes, parameters, version);
+    </script>
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.js"></script>
+    <script type="text/javascript" src="./applet.js"></script>
+  </head>
+
+  <body>
+    <div>
+      <button id="java-signed">Run Signed Java!</button>
+      <button id="java-unsigned">Run Unsigned Java!</button>
+    </div>
+    <div id="actions">
+      <button id="startServer">Start server!</button>
+      <button id="startClientTimer">Start client timer!</button>
+      <button id="startClientPriv">Start client doPriv!</button>
+      <button id="startClientPrivContext">Start client doPriv applet context!</button>
+    </div>
+    <div id="status">
+      <div>Server Bound: <span id="isServerBound">false</span></div>
+      <div>Client Connected: <span id="isClientConnected">false</span><div>
+    </div>
+  </body>
+</html>
