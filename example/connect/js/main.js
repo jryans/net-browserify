@@ -1,1 +1,1 @@
-window.Socket = require('net-browserify').Socket;
+window.Socket = require('net').Socket;
