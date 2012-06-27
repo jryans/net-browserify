@@ -11,7 +11,10 @@
   },
   "main": "main.js",
   "dependencies": {},
-  "devDependencies": {},
+  "devDependencies": {
+    "connect": "~2.3.0",
+    "browserify": "~1.10.16"
+  },
   "optionalDependencies": {},
   "engines": {
     "node": "*"
